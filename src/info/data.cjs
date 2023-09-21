@@ -2,7 +2,10 @@ import {} from 'react-icons/fa'
 import musoImg from '../assets/muso/muso.png'
 import centroImg from '../assets/centro/centro.png'
 import kocoamaniaImg from '../assets/kocoamania/kocoamania.png'
-import dataAggImg from '../assets/data_agg/data_agg.png' 
+import dataAggImg from '../assets/data_agg/data_agg.png'
+import dataAggPdf from '../assets/data_agg/data_agg.pdf'
+import resumePdf from '../assets/resume.pdf'
+
 export const AboutDataPara1 = 'I am a highly motivated software developer with a passion for creating flexible, and scalable applications. I am a quick learner with a keen interest for new technologies. I have worked as a front-end and back-end developer, contributing to the complete development cycle and collaborating closely with cross-functional teams to deliver seamless user experiences and robust, scalable solutions.'
 
 export const AboutDataPara2 = 'My background in business and customer service has equipped me with improved communication skills allowing me to better understand end users\' requirements. When I am not coding, I enjoy playing drums, guitar, and producing music. Let\'s connect and build something amazing!'
@@ -44,7 +47,7 @@ export const ProjectData = [{
   id: 4,
   title: "Data Scraper and Aggregator",
   github: "https://github.com/anshuman-111/flatmates-data",
-  projLink: "data_agg.html",
+  projLink: dataAggPdf,
   projImg: dataAggImg,
   popupDesc:
     "Data Scraper and aggregator based on data scraped from Flatmates.com.au. The objective of this project was to narrow down on search time by finding properties based on aggregates like Minimum rent with bills included, Properties available in the next 10 days, etc.",
