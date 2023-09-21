@@ -40,7 +40,7 @@ export const ProjectData = [{
   projLink: "https://www.kocoamania.com/",
   projImg: kocoamaniaImg,
   popupDesc:
-    "Website for Kocoa Mania, a bakery in India, built using modern web development technologies like ReactJS and StrapiCMS. The client needed to update the website frequently and a approximately 3000 images. Hence, the website was made using a headless CMS connected to Cloudinary CDN and was deployed on a VPS Server using Nginx.",
+    "Website for Kocoa Mania, a bakery in India, built using modern web development technologies like ReactJS and StrapiCMS. The client needed to update the website frequently and add approximately 600 images. The website was integrated with a headless CMS connected to Cloudinary CDN and was deployed on a VPS Server using Nginx.",
     techUsed: ['ReactJS', 'StrapiCMS', 'HTML', 'CSS', 'Javascript', 'PostgreSQL']
 },
 {
