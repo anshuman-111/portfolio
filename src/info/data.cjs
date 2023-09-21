@@ -6,9 +6,9 @@ import dataAggImg from '../assets/data_agg/data_agg.png'
 import dataAggPdf from '../assets/data_agg/data_agg.pdf'
 import resumePdf from '../assets/resume.pdf'
 
-export const AboutDataPara1 = 'I am a highly motivated software developer with a passion for creating flexible, and scalable applications. I am a quick learner with a keen interest for new technologies and frameworks. I have worked as a front-end and back-end developer, contributing to the complete development cycle and collaborating closely with cross-functional teams to deliver seamless user experiences and robust solutions.'
+export const AboutDataPara1 = 'I am a highly motivated software developer with a passion for creating flexible, and scalable applications. I am a quick learner with a keen interest for new technologies and frameworks. I have worked as a front-end and back-end developer, contributing to the complete development cycle and collaborating closely with cross-functional teams to deliver seamless user experiences and robust solutions.In addition, my background in business and customer service allows me to better understand end users\' requirements.'
 
-export const AboutDataPara2 = 'My background in business and customer service has equipped me with improved communication skills allowing me to better understand end users\' requirements. When I am not coding, I enjoy playing drums, guitar, and producing music. Let\'s connect and build something amazing!'
+export const AboutDataPara2 = ' When I am not coding, I enjoy playing drums, guitar, and producing music. Let\'s connect and build something amazing!'
 
 export const websiteSpecs = 'This website was built using ReactJS, HTML, Tailwind CSS, and Framer Motion.'
 
@@ -99,8 +99,8 @@ export const contactData = []
 export const SocialLinks = {
   github: 'https://github.com/anshuman-111',
   linkedIn: 'https://www.linkedin.com/in/anshumangupta1997/',
-  resume: '',
-  email: 'anshuman11197@gmail.com'
+  resume: resumePdf,
+  email: 'mailto:anshuman11197@gmail.com'
 }
 
 export const skills = [{title: 'Python'}, {title: 'Django'}, {title: 'Flask'}, {title: 'ReactJS'}, {title: 'NodeJS'}, {title: 'AWS'}, {title: 'Docker'}, {title: 'MySQL'}, {title: 'Firebase'}, {title: 'HTML'},{title: 'Tailwind'}, {title: 'CSS'}]

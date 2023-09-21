@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiDocumentText } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
 import { motion } from "framer-motion";
-
+import { SocialLinks } from "../info/data.cjs";
 const Hero = () => {
 	return (
 		<>
@@ -66,7 +66,7 @@ const Hero = () => {
 						</div>
 						<div className="flex flex-row justify-center gap-6 w-full mb-10 mx-auto items-center rounded-3xl h-1/6">
 							<a
-								href="https://github.com/anshuman-111"
+								href={SocialLinks.github}
 								target="_blank"
 								className="relative px-5 py-3 overflow-hidden font-medium text-gray-600 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group"
 							>
@@ -85,7 +85,7 @@ const Hero = () => {
 								</span>
 							</a>
 							<a
-								href="https://www.linkedin.com/in/anshumangupta1997/"
+								href={SocialLinks.linkedIn}
 								target="_blank"
 								className="relative px-5 py-3 overflow-hidden font-medium text-gray-600 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group"
 							>
@@ -101,7 +101,7 @@ const Hero = () => {
 								</span>
 							</a>
 							<a
-								href="mailto: anshuman11197@gmail.com"
+								href={SocialLinks.email}
 								target="_blank"
 								className="relative px-5 py-3 overflow-hidden font-medium text-gray-600 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group"
 							>
@@ -117,7 +117,8 @@ const Hero = () => {
 								</span>
 							</a>
 							<a
-								href="#_"
+								href={SocialLinks.resume}
+								target="_blank"
 								className="relative px-5 py-3 overflow-hidden font-medium text-gray-600 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group"
 							>
 								<span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
