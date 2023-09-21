@@ -45,7 +45,7 @@ const About = () => {
 				<br />
 				<br />
 				<br />
-				<p className="text-center">{websiteSpecs}</p>
+				<p className="text-center text-sm font-bold">{websiteSpecs}</p>
 			</motion.div>
 		</div>
 	);
