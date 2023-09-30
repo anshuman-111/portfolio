@@ -27,7 +27,7 @@ export const ProjectData = [{
   id: 2,
   title: "Layout Generator for a concert",
   github: "https://github.com/anshuman-111/centro",
-  projLink: "https://sorrento-room.netlify.app",
+  projLink: "https://centrocbd.netlify.app",
   projImg: centroImg,
   popupDesc:
     "The Layout generator is a ReactJS and Vanilla JS based project that generates a layout for a concert based on the bookings. This is being actively used at Centro CBD Restaurant and Function Centre, Wollongong. The objective was to save time by automating the layout creation and reduce margin of error.",
