@@ -5,11 +5,16 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-scroll";
 const MobileNav = () => {
 	const [isMobilNavOpen, setMobileNavOpen] = useState(false);
+
+	// Defining position of Navbar during open and closed states
 	const navDrawerVariants = {
 		open: { y: 0 },
 		closed: { y: "-100%" },
 	};
+
+	// Home link is always active
 	const [active, setActive] = useState(1);
+
 	const MobNavLinks = [
 		{ id: 1, displayName: "Home", linkTo: "home" },
 		{ id: 2, displayName: "Projects", linkTo: "projects" },
@@ -18,6 +23,7 @@ const MobileNav = () => {
 	];
 	return (
 		<>
+			{/* Mobile navigation component: Contains mobile navigation layout, animations, and scroll */}
 			{isMobilNavOpen ? (
 				<AnimatePresence mode="wait">
 					<motion.div className="flex items-center justify-center h-[2rem]">

@@ -7,6 +7,7 @@ import { SocialLinks } from "../info/data.cjs";
 const Hero = () => {
 	return (
 		<>
+			{/* Hero Component: Contains the introduction, title and links to Github, LinkedIn, Email, and Resume */}
 			<div
 				id="home"
 				className=" w-11/12 mt-16 sm:mt-24 pb-10 sm:w-3/4 min-h-fit mx-auto"

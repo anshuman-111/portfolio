@@ -10,17 +10,20 @@ const Home = () => {
 	const [loading, setLoading] = useState(true);
 	const [removeLoader, setRemoveLoader] = useState(false);
 
+	// Removing loading animation after 1 second
 	useEffect(() => {
 		setTimeout(() => {
 			setLoading(false);
 		}, 1000);
 	}, []);
 
+	// Removing loader component after 2 seconds to create a fade effect during animation
 	setTimeout(() => {
 		setRemoveLoader(true);
 	}, 2000);
 	return (
 		<div className="mx-auto">
+			{/* Loader component */}
 			<motion.div
 				initial={{ opacity: 1, z: 50 }}
 				animate={
@@ -70,6 +73,7 @@ const Home = () => {
 					</path>
 				</svg>
 			</motion.div>
+			{/* Home component i.e., The page layout */}
 			<div className={loading ? "hidden" : "block"}>
 				<Navbar />
 				<Hero />
