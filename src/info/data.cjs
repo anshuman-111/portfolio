@@ -6,7 +6,7 @@ import dataAggImg from '../assets/data_agg/data_agg.png'
 import dataAggPdf from '../assets/data_agg/data_agg.pdf'
 import resumePdf from '../assets/resume.pdf'
 
-export const AboutDataPara1 = 'I am a highly motivated software developer with a passion for creating flexible, and scalable applications. I am a quick learner with a keen interest for new technologies and frameworks. I have worked as a front-end and back-end developer, contributing to the complete development cycle and collaborating closely with cross-functional teams to deliver seamless user experiences and robust solutions.In addition, my background in business and customer service allows me to better understand end users\' requirements.'
+export const AboutDataPara1 = 'I am a highly motivated software developer with a passion for creating flexible, and scalable applications. I am a quick learner with a keen interest for new technologies and frameworks. I have worked as a front-end and back-end developer, contributing to the complete development cycle and collaborating closely with cross-functional teams to deliver seamless user experiences and robust solutions. In addition, my background in business and customer service allows me to better understand end users\' requirements.'
 
 export const AboutDataPara2 = ' When I am not coding, I enjoy playing drums, guitar, and producing music. Let\'s connect and build something amazing!'
 
