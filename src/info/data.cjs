@@ -6,7 +6,7 @@ import dataAggImg from '../assets/data_agg/data_agg.png'
 import dataAggPdf from '../assets/data_agg/data_agg.pdf'
 import resumePdf from '../assets/resume.pdf'
 
-export const AboutDataPara1 = 'I am a highly motivated software developer with a passion for creating flexible, and scalable applications. I am a quick learner with a keen interest for new technologies and frameworks. I have worked as a front-end and back-end developer, contributing to the complete development cycle and collaborating closely with cross-functional teams to deliver seamless user experiences and robust solutions. In addition, my background in business and customer service allows me to better understand end users\' requirements.'
+export const AboutDataPara1 = 'I am a highly motivated software developer with a passion for creating flexible, and scalable applications. I am a quick learner with a keen interest for new technologies and frameworks. I have worked as a front-end and back-end developer, contributing to the complete development cycle and collaborating closely with cross-functional teams to deliver seamless user experiences and robust solutions.'
 
 export const AboutDataPara2 = ' When I am not coding, I enjoy playing drums, guitar, and producing music. Let\'s connect and build something amazing!'
 
@@ -57,25 +57,22 @@ export const experienceData = [
   {
   id: 1,
   type: 'work',
-  title: 'Software Engineer Intern',
-  org: 'AML Cloud - Melbourne',
-  description: `Developed event based features using Google Cloud Functions and NodeJS`,
-  duration: '5 months (Present)'
+  title: 'Software Engineer Team Lead',
+  org: 'Fair Share Group - Melbourne',
+  duration: '4 months (Present)'
 },
 {
   id: 2,
   type: 'work',
-  title: 'Web Developer (Remote) - Contract',
-  org: 'Kocoamania India',
-  description: 'Developed catalog website using ReactJS and Strapi CMS',
-  duration: '2 months'
+  title: 'Software Engineer',
+  org: 'AML Cloud - Melbourne',
+  duration: '5 months'
 },
 {
   id: 3,
   type: 'work',
-  title: 'Software Developer Intern',
+  title: 'Software Developer',
   org: 'Fair Share Group - Melbourne',
-  description: 'Developed data-driven UI components using Flutter, NodeJS and Firestore',
   duration: '4 months'
 },
 {
