@@ -57,9 +57,9 @@ export const experienceData = [
   {
   id: 1,
   type: 'work',
-  title: 'Software Engineer Team Lead',
+  title: 'Software Engineer',
   org: 'Fair Share Group - Melbourne',
-  duration: '4 months (Present)'
+  duration: '6 months (Present)'
 },
 {
   id: 2,
